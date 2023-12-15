@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Include appropriate meta tags and CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website Title</title>
+</head>
+
+<body>
+    <div id="language-selector">
+        <label for="language">Select language:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <!-- Add more language options as needed -->
+        </select>
+    </div>
+
+    <div class="content">
+        <span data-key="greeting">Hello, world!</span>
+        <span data-key="instructions">Select your language above.</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
